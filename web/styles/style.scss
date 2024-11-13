@@ -664,6 +664,25 @@ footer .container{
 }
 
 @media screen and (max-width:768px){
+  .section-title{
+    h2, p, .services-container{
+      margin-left: 24px;
+    }
+  }
+  .kid{
+    width:360px;
+    height: 520px;
+  }
+  .about-us-video{
+    width: 400px;
+    height: 480px;
+  }
+  .supporters{
+    margin-left: 12PX;
+  }
+  .about-us-mar{
+    margin-left: 2px !important;
+  }
   .event{
     background-color: white;
     margin-left: 10px;
@@ -689,7 +708,7 @@ footer .container{
       margin-left: 20px;
     }
     .projects{
-      margin-left: 20px;
+      margin-left: 0;
     }
   }
   .event-text{
@@ -732,7 +751,8 @@ footer .container{
     max-width: 520px;
   }
   .diagram-section-wrapper{
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     height: auto;
   }
   .subscribe{
@@ -779,7 +799,7 @@ footer .container{
   .what-we-do-section{
     height: auto;
     img{
-      margin-top: 250px;
+      margin-top: 220px;
     }
   }
   .join-image h2{
