@@ -266,7 +266,7 @@ h2 {
 
 .about-us-mar {
   align-items: center;
-  margin: 87px auto 60px;
+  margin: 60px;
 }
 
 .line {
@@ -545,7 +545,8 @@ h2 {
 }
 
 .event {
-  min-width: 628px;
+  max-width: 628px;
+  width: 100%;
   height: 191px;
   background-color: #F2C94C;
   border-radius: 20px;
@@ -584,7 +585,8 @@ h2 {
 
 .join-image {
   height: 384px;
-  width: 1280px;
+  max-width: 1280px;
+  width: 100%;
   border-radius: 20px;
   margin-top: 100px;
   background-image: url("../img/join-back.webp");
@@ -713,6 +715,32 @@ footer .container h3 {
 }
 
 @media screen and (max-width: 768px) {
+  .event {
+    background-color: white;
+    margin-left: 10px;
+  }
+  .event .event-container {
+    background-color: #F2C94C;
+    border-radius: 20px;
+  }
+  header {
+    height: 744px;
+  }
+  .title {
+    margin-left: 12px;
+  }
+  .sub-title {
+    margin-left: 10px;
+  }
+  .section {
+    margin-left: -10px;
+  }
+  .project-container h2 {
+    margin-left: 20px;
+  }
+  .project-container .projects {
+    margin-left: 20px;
+  }
   .event-text h3 {
     width: 280px;
     padding-right: 5px;
@@ -729,10 +757,11 @@ footer .container h3 {
   }
   .nav-links {
     position: absolute;
-    top: 8vh;
+    top: 9vh;
     right: 0;
     width: 40%;
     height: 92vh;
+    border-radius: 20px 0px 20px 20px;
     background-color: #FFFFFF;
     transform: translateX(100%);
     transition: transform 0.3s ease;
@@ -759,11 +788,6 @@ footer .container h3 {
     width: 300px;
   }
 }
-.events-slider-title-container {
-  width: 100%;
-  max-width: 1280px;
-}
-
 @media (max-width: 980px) {
   .section-container {
     width: 480px;
@@ -799,25 +823,26 @@ footer .container h3 {
     height: auto;
   }
   .what-we-do-section img {
-    margin-top: 24px;
+    margin-top: 250px;
   }
   .join-image h2 {
     max-width: 480px;
+    font-size: 40px;
   }
   .what-we-do-section {
     margin-bottom: 48px;
   }
+  section {
+    margin-left: 0px;
+  }
 }
 @media (max-width: 1250px) {
-  .event-container {
-    justify-content: space-around;
-  }
   .projects, .diagram-section .container {
     display: inline-block;
     margin: 0 auto;
   }
   .diagram-section .container {
-    margin-left: 48px;
+    margin-left: 2px;
     padding: 48px 0px 48px 0px;
   }
   .diagram-section {
