@@ -156,7 +156,8 @@ header::after {
 }
 
 .title {
-  width: 640px;
+  max-width: 640px;
+  width: 100%;
   height: 330px;
   margin-left: 100px;
 }
@@ -194,7 +195,8 @@ header::after {
 }
 
 .sub-title p {
-  width: 375px;
+  max-width: 375px;
+  width: 100%;
   max-height: 50px;
 }
 
@@ -257,7 +259,8 @@ h2 {
 .section-container {
   display: flex;
   justify-content: space-around;
-  width: 1270px;
+  max-width: 1270px;
+  width: 100%;
   gap: 20px;
 }
 .section-container img {
@@ -382,7 +385,8 @@ h2 {
 }
 
 .project {
-  width: 411px;
+  max-width: 411px;
+  width: 100%;
   height: 421px;
   border-radius: 20px;
   color: #FFFFFF;
@@ -431,7 +435,8 @@ h2 {
   background-color: #000000;
 }
 .diagram-section .container {
-  width: 1280px;
+  max-width: 1280px;
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -518,7 +523,8 @@ h2 {
 }
 
 .swiper {
-  width: 1310px;
+  max-width: 1310px;
+  width: 100%;
   height: 300px;
 }
 
@@ -613,7 +619,8 @@ h2 {
 .join-image h2 {
   text-align: center;
   color: #FFFFFF;
-  width: 805px;
+  max-width: 805px;
+  width: 100%;
   margin-bottom: 32px;
 }
 .join-image .primary-btn {
@@ -666,7 +673,8 @@ footer .container h3 {
   height: 62px;
   border: 1px solid rgba(235, 240, 249, 0.3019607843);
   background-color: #0B0706;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   margin-right: -5px;
   color: rgba(235, 240, 249, 0.3019607843);
   border-radius: 4px;
@@ -700,7 +708,8 @@ footer .container h3 {
   gap: 24px;
   margin-top: 84px;
   margin-bottom: 84px;
-  width: 1280px;
+  max-width: 1280px;
+  width: 100%;
 }
 .events-slider-title h2 {
   width: 20%;
@@ -759,11 +768,13 @@ footer .container h3 {
     margin-left: 0;
   }
   .event-text h3 {
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     padding-right: 5px;
   }
   .title h1 {
-    width: 380px;
+    max-width: 380px;
+    width: 100%;
     margin-left: 0px;
   }
   body {
