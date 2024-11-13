@@ -106,6 +106,7 @@
 
 .nav-btn {
   text-align: center;
+  cursor: pointer;
   background-color: #1D2130;
   color: #FFFFFF;
   padding: 12px 32px 12px 32px;
@@ -171,6 +172,7 @@ header::after {
 
 .sec-btn {
   background-color: #FFFFFF;
+  cursor: pointer;
   color: #1D2130;
   border-radius: 4px;
   padding: 16px 32px 16px 32px;
@@ -224,16 +226,6 @@ header::after {
   margin: 40px 0px 0px 96px;
 }
 
-.primary-btn {
-  display: inline-block;
-  padding: 16px 32px 16px 32px;
-  border-radius: 4px;
-  background-color: #F2C94C;
-  text-align: center;
-  -webkit-backdrop-filter: blur(40px);
-          backdrop-filter: blur(40px);
-}
-
 h2 {
   font-weight: 700;
   font-size: 48px;
@@ -242,6 +234,7 @@ h2 {
 
 .primary-btn {
   display: inline-block;
+  cursor: pointer;
   padding: 16px 32px 16px 32px;
   border-radius: 4px;
   background-color: #F2C94C;
@@ -440,6 +433,7 @@ h2 {
 }
 
 .diagram-section-wrapper {
+  padding-left: 10px;
   max-width: 633px;
   height: 284px;
   color: #FFFFFF;
@@ -547,7 +541,7 @@ h2 {
 }
 
 .event {
-  max-width: 444px;
+  max-width: 640px;
   width: 100%;
   background-color: #F2C94C;
   border-radius: 20px;
@@ -657,6 +651,7 @@ footer .container h3 {
 }
 
 .events-slider-title-container {
+  max-width: 1280px;
   width: 100%;
 }
 
@@ -729,6 +724,7 @@ footer .container h3 {
   .ring-chart {
     width: 350px;
     height: 350px;
+    margin: 0 auto;
   }
   .section-title h2, .section-title p, .section-title .services-container {
     margin-left: 24px;
@@ -757,13 +753,22 @@ footer .container h3 {
   }
   header {
     height: auto;
+    padding-bottom: 8px;
   }
   .title {
     margin-left: 12px;
     height: auto;
   }
+  .title h1 {
+    font-size: 48px;
+    padding-right: 10px;
+  }
   .sub-title {
     margin: 12px auto;
+    padding-left: 10px;
+  }
+  .sub-title p {
+    font-size: 12px;
   }
   .section {
     margin-left: -10px;

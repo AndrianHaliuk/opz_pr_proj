@@ -94,6 +94,7 @@
 
 .nav-btn{
   text-align: center;
+  cursor: pointer;
   background-color: #1D2130;
   color: #FFFFFF;
   padding: 12px 32px 12px 32px;
@@ -159,6 +160,7 @@ header{
 
 .sec-btn{
   background-color: #FFFFFF;
+  cursor: pointer;
   color: #1D2130;
   border-radius: 4px;
   padding: 16px 32px 16px 32px;
@@ -212,15 +214,6 @@ header{
   }
 }
 
-.primary-btn{
-  display: inline-block;
-  padding: 16px 32px 16px 32px;
-  border-radius: 4px;
-  background-color: #F2C94C;
-  text-align: center;
-  backdrop-filter: blur(40px);
-}
-
 h2{
   font-weight: 700;
   font-size: 48px; 
@@ -229,6 +222,7 @@ h2{
 
 .primary-btn{
   display: inline-block;
+  cursor: pointer;
   padding: 16px 32px 16px 32px;
   border-radius: 4px;
   background-color: #F2C94C;
@@ -403,6 +397,7 @@ background-image: url("../img/join-back3.webp");
   }
 }
 .diagram-section-wrapper{
+  padding-left: 10px;
   max-width: 633px;
   height: 284px;
   color:#FFFFFF;
@@ -509,10 +504,8 @@ background-image: url("../img/join-back3.webp");
   display: flex;
 }
 
-
-
 .event{
-  max-width: 444px;
+  max-width: 640px;
   width: 100%;
   background-color: #F2C94C;
   border-radius: 20px;
@@ -606,6 +599,7 @@ footer .container{
   gap: 90px;
 }
 .events-slider-title-container{
+  max-width: 1280px;
   width: 100%;
 }
 .subscribe{
@@ -676,6 +670,7 @@ footer .container{
   .ring-chart {
     width: 350px;
     height: 350px;
+    margin: 0 auto;
   }
   .section-title{
     h2, p, .services-container{
@@ -706,13 +701,22 @@ footer .container{
   }
   header{
     height: auto;
+    padding-bottom: 8px;
   }
   .title{
     margin-left: 12px;
     height: auto;
+    h1{
+      font-size: 48px;
+      padding-right: 10px;
+    }
   }
   .sub-title{
     margin: 12px auto;
+    padding-left: 10px;
+    p{
+    font-size: 12px;
+    }
   }
   .section{
     margin-left: -10px;
