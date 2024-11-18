@@ -43,7 +43,7 @@
 }
 
 .container{
-  max-width: 1500px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -64,16 +64,16 @@
   background-color: #fff;
   transition: top 0.3s ease;
   z-index: 1000;
+  border-bottom: 1px solid #00000066;
 }
 
 .nav-container {
-  max-width: 1300px;
+  max-width: 1280px;
   height: 87px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
 }
 
 .nav-links{
@@ -132,6 +132,7 @@ header{
   height: 735px;
   z-index: -1;
   padding-top: 128px;
+  margin-bottom: 110px;
   &::after {
     content: '';
     position: absolute;
@@ -148,7 +149,6 @@ header{
   max-width: 640px;
   width: 100%;
   height: 330px;
-  margin-left: 100px;
   h1{
     font-size: 64px;
     font-weight: 700;
@@ -179,27 +179,25 @@ header{
 .sub-title{
   display: flex;
   align-items: center;
-  margin: 205px 110px 0px 110px;
+  margin: 205px 0px 0px 0px;
   font-size: 18px;
   color: #FFFFFF;
 }
 
 .sub-title p{
-  max-width: 220px;
-  width: 100%;
+  white-space: nowrap
 }
 
 .sub-title div{
   background-color: #FFFFFF;
-  margin-right: 20px;
+  margin: 0px 20px 0px 20px;
   height: 1.1px;
-  padding-left: 100px;
   width: 100%;
 }
 
 .section-title{
+  margin-left: 10px;
   max-width: 704px;
-  height: 454px;
  h2{
   margin: 24px 0px 0px 96px;
   }
@@ -237,18 +235,15 @@ h2{
 
 .section-container{
   display: flex;
-  justify-content: space-around;
-  max-width: 1270px;
+  justify-content: space-between;
+  max-width: 1280px;
   width: 100%;
-  gap: 20px;
   img{
     padding-top: 50px;
+    margin-left: 100px;
   }
 }
-.about-us-mar{
-  align-items: center;
-  margin: 60px;
-}
+
 .line{
   background-color: #1D2130;
   width: 72px;
@@ -292,13 +287,9 @@ h2{
   justify-content: space-between;
   margin-top: 30px;
 }
-.section{
-  max-width: 1280px;
-  margin: 0 auto;
-}
 
 .what-we-do-section{
-  margin-top: 60px;
+  margin-top: 110px;
   width: 100%;
   height: 901px;
   background-color: #FCEDC6;
@@ -331,12 +322,13 @@ h2{
 }
 
 .project-container{
-  margin: 110px;
+  margin: 110px 0px 110px 0px;
   display: flex;
   flex-direction: column;
   h2{
-    margin: 20px 0px 100px 100px;
+    margin: 24px 0px 48px 110px;
     max-width: 640px;
+    line-height: 57.6px;
   }
 }
 
@@ -573,7 +565,7 @@ footer{
 footer .container{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   position: relative;
   color: #FFFF;
   height: 402px;
